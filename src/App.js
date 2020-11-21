@@ -9,6 +9,7 @@ function App() {
         <p>
           Hello <span class="fsBig">REACT NAKASONE</span>
         </p>
+        <p class="fsBig">自動デプロイTEST</p>
         <a
           className="App-link"
           href="https://reactjs.org"

@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.fsBig {
+  font-size: 120px;
+}
 
 .App-logo {
   height: 40vmin;

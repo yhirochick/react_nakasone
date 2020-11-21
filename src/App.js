@@ -7,9 +7,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello <span class="fsBig">REACT NAKASONE</span>
+          Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p class="fsBig">自動デプロイTEST..</p>
         <a
           className="App-link"
           href="https://reactjs.org"

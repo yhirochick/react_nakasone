@@ -1,8 +1,17 @@
-import logo from './logo.svg';
+import Header from './Header'
+import './App.scss';
+import MainVisual from './MainVisual';
+import MainContents from './MainContents';
+import Footer from './Footer';
 
 function App() {
   return (
-    <h1>ReactでAxiosを使ってGoogleAPIを叩いてみた</h1>
+    <div id="mainSec">
+      <Header />
+      <MainVisual />
+      <MainContents />
+      <Footer />
+    </div>
   );
 }
 

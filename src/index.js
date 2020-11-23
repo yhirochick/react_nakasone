@@ -1,10 +1,17 @@
-// React 本体の読み込み
 import React from 'react';
-// ReactDOM ライブラリの読み込み
 import ReactDOM from 'react-dom';
- 
-//ReactDOM.render() メソッドを使ってレンダリング（表示）
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
 ReactDOM.render(
-  <h1>Hello world!</h1>,  
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById('root')
 );
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

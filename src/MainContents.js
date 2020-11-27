@@ -1,3 +1,4 @@
+import Zip from './contents/Zip';
 function MainContents() {
   return (
     <div id="main">
@@ -11,29 +12,11 @@ function MainContents() {
           </div>
         </div>
       </section>
-      <section id="Flow" class="content flow">
+      <section id="ZipCode" class="content flow">
         <h2 class="heading2"><span>サービス</span></h2>
         <div class="content_outer">
-          <div class="flow_content">
-            <div class="flow_list">
-              <div class="flow_item">
-                <div class="flow_no">STEP 1</div>
-                <div class="flow_title"><h3>お問い合わせ</h3></div>
-              </div>
-              <div class="flow_item">
-                <div class="flow_no">STEP 2</div>
-                <div class="flow_title"><h3>初回面談</h3></div>
-              </div>
-              <div class="flow_item">
-                <div class="flow_no">STEP 3</div>
-                <div class="flow_title"><h3>体験</h3></div>
-              </div>
-              <div class="flow_item">
-                <div class="flow_no">STEP 4</div>
-                <div class="flow_title"><h3>本番</h3></div>
-              </div>
-            </div>
-          </div>
+          <h3 class="heading3 pc-mt-40 sp-mt-40"><span>郵便番号検索</span></h3>
+          <Zip />
         </div>
       </section>
       <section id="Contact" class="content contact">

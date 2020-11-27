@@ -124,6 +124,7 @@ a {
   border: 2px solid #fff;
   border-radius: 10px;
   transition: background-color .5s ease;
+  cursor: pointer;
 }
 .btn .main {
   color: #fff;
@@ -724,8 +725,53 @@ section.news .news_content {
 .pc-pt-78 { padding-top: 78px !important; }  .pc-pr-78 { padding-right: 78px !important; }  .pc-pb-78 { padding-bottom: 78px !important; }  .pc-pl-78 { padding-left: 78px !important; }
 .pc-pt-79 { padding-top: 79px !important; }  .pc-pr-79 { padding-right: 79px !important; }  .pc-pb-79 { padding-bottom: 79px !important; }  .pc-pl-79 { padding-left: 79px !important; }
 .pc-pt-80 { padding-top: 80px !important; }  .pc-pr-80 { padding-right: 80px !important; }  .pc-pb-80 { padding-bottom: 80px !important; }  .pc-pl-80 { padding-left: 80px !important; }
+.form_text {
+  height: 50px;
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 0 auto;
+  input {
+    font-size: 16px;
+    width: 100%; /*flexの中で100%広げる*/
+    height: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: none; /*枠線非表示*/
+    outline: none; /*フォーカス時の枠線非表示*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+    letter-spacing: 0.3em;
+    border-radius: 16px;
+  }
+}
+.zipcode_message {
+  color: #ff7f50;
+  font-size: 24px;
+}
+.zipcode_result {
+  text-align: center;;
+  font-size: 24px;
+}
 
 @media screen and (max-width: 767px) {
+  .form_text {
+    height: 30px;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    input {
+      font-size: 14px;
+      width: 100%; /*flexの中で100%広げる*/
+      height: 100%;
+      padding: 10px;
+      background-color: #fff;
+      border: none; /*枠線非表示*/
+      outline: none; /*フォーカス時の枠線非表示*/
+      box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+      letter-spacing: 0.3em;
+    }
+  }
 /* element */
 body {
   position: relative;
@@ -851,6 +897,7 @@ a {
   border: 2px solid #fff;
   border-radius: 10px;
   transition: background-color .5s ease;
+  cursor: pointer;
 }
 .btn .main {
   color: #fff;

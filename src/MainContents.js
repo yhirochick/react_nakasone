@@ -1,5 +1,6 @@
 import Zip from './contents/Zip';
 import Heading from './Components/Heading';
+import Button from './Components/Button';
 function MainContents() {
   return (
     <div id="main">
@@ -38,9 +39,7 @@ function MainContents() {
               </div>
             </div>
             <Heading util="pc-mt-80 sp-mt-40" level="3" text="サイトから直接問い合わせる" />
-            <a class="btn icon-blank" target="_blank" href="">
-              <span class="main">お問い合わせ内容を入力する</span>
-            </a>
+            <Button util="" type="blank" text="お問い合わせ内容を入力する" />
 
           </div>
         </div>
@@ -54,9 +53,7 @@ function MainContents() {
               <div class="grid_item">
                 <Heading level="3" text="公式ブログ" />
                 <div class="btnList">
-                  <a class="btn icon-blank" target="_blank" href="">
-                    <span class="main">ブログはこちら</span>
-                  </a>
+                  <Button util="" type="blank" text="ブログはこちら" />
                 </div>
               </div>
               <div class="grid_item">
